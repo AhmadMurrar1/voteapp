@@ -1,0 +1,33 @@
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 3px solid red;
+    background-color: rgb(233, 178, 178);
+}
+.Vote{
+    background-color: rgb(219, 171, 171);
+    border-radius:10px ;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+select,header button{
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(75, 67, 67);
+    color: white;
+    font-size: 17px;
+    background-color: rgb(75, 67, 67);
+    text-align: center;
+    width: 10rem;
+
+}
+select,header button:hover{
+    transition: 0.5s;
+    background-color: #adafb0;
+}
